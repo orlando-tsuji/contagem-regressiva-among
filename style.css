@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    color: aqua;
+}
+
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.541), rgba(0, 0, 0, 0.541)), url(1104367.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    height: 100vh;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    position: relative; /* Adicionado para que a posição do pseudo-elemento seja relativa a este elemento */
+}
+
+
+section {
+    margin-bottom: 10%;
+}
+
+h1 {
+    margin-bottom: 1em;
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    animation: floating 4s ease-in-out infinite alternate;
+}
+
+h2 {
+    font-size: 7em;
+    animation: animation 15s ease-in-out infinite alternate;
+    color: #fff;
+}
+
+
+@keyframes animation{
+    0%{
+        text-shadow: 0 0 70px #9ea3ee;
+        
+    }
+    25%{
+        text-shadow: 0 0 50px rgb(37, 255, 37);
+        
+    }
+    50%{
+        text-shadow: 0 0 70px #f22;
+    }
+    75%{
+        text-shadow: 0 0 50px #28f;
+        
+    }
+    100%{
+        text-shadow: 0 0 70px #fff;
+        
+    }
+}
+
+@keyframes floating {
+    0%{
+        transform: translateY(0%);
+    }
+
+    100%{
+        transform: translateY(-50%);
+    }
+}
+
+@media (max-width: 767px) {
+
+    section{
+        padding: 15px;
+    }
+
+    h1{
+        font-size: 30px;
+    }
+
+    h2{
+        font-size: 4em;
+    }
+}
