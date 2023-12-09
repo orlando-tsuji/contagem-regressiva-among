@@ -1,4 +1,4 @@
-* {
+se* {
     margin: 0;
     font-family: 'Poppins', sans-serif;
     color: aqua;
@@ -84,6 +84,6 @@ h3{
     }
 
     h2{
-        font-size: 30em;
+        font-size: 30px;
     }
 }
