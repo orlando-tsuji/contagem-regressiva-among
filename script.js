@@ -34,8 +34,8 @@ function atualizaContagemRegressiva() {
     
     // Se a contagem regressiva terminou, exibir uma mensagem
     if (diferenca < 0) {
-        contagemRegressiva.textContent = BORA JOGAR!!!';
-        // contagemRegressivah.textContent = 'A contagem regressiva terminou!';
+        contagemRegressiva.textContent = 'BORA JOGAR!!!';
+        
     }
 }
 
