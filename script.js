@@ -34,7 +34,7 @@ function atualizaContagemRegressiva() {
     
     // Se a contagem regressiva terminou, exibir uma mensagem
     if (diferenca < 0) {
-        contagemRegressiva.textContent = '<h2>A contagem regressiva terminou!<h2>';
+        contagemRegressiva.textContent = 'A contagem regressiva terminou!';
         contagemRegressivah.textContent = 'A contagem regressiva terminou!';
     }
 }
