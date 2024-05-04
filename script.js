@@ -1,6 +1,6 @@
 
 // Data final da contagem regressiva (pode ser ajustada conforme necessário)
-const dataFinal = new Date('2023-12-09T21:30:00');
+const dataFinal = new Date('2024-05-04T22:30:00');
 // const dataHenrique = new Date('2023-12-08T23:00:00');
 
 const contagemRegressiva = document.querySelector('#contagem');
